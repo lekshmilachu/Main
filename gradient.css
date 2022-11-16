@@ -1,0 +1,12 @@
+body{
+    background-image: repeating-linear-gradient(to bottom right, green 10%,blue 20%);
+}
+.container{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: blue;
+    padding: 40px;
+    background-image: repeating-conic-gradient( red 0deg 10deg,green 10deg 20deg,yellow 20deg 30deg);
+}

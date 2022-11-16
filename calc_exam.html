@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc_exam</title>
+    <link rel="stylesheet" href="/calc_exam.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content1">
+            <h3>RESULT:</h3>
+            <h3 id="demo"></h3>
+        </div>
+        <div class="content2">
+            <input type="text" id="num1" placeholder="First Number"><br>
+            <input type="text" id="num2" placeholder="Second Number"><br>
+            <button onclick="calculation(this.value)" value="+">Add</button>
+            <button onclick="calculation(this.value)" value="-">Sub</button>
+            <button onclick="calculation(this.value)" value="*">Mul</button>
+            <button onclick="calculation(this.value)" value="/">Div</button>
+        </div>
+    </div>
+    <script>
+        function calculation(val){
+            var val1=parseInt(document.getElementById("num1").value)
+            var val2=parseInt(document.getElementById("num2").value)
+            let x=num1+val+num2
+            total=eval(x)
+            document.getElementById("demo").innerHTML= total
+        }
+    </script>
+</body>
+</html>

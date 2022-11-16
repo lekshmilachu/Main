@@ -1,0 +1,68 @@
+h1{
+    color:brown;
+}
+h2{
+    
+    
+    background-color: aqua;
+    padding: 20px;
+}
+div:hover h2{
+
+    background-color: yellowgreen;
+}
+.center{
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+}
+p:first-child{
+    background-color: yellow;
+}
+h3{
+    background-color: dimgray;
+    padding: 25px;
+    display: inline;
+    border: 3px solid grey;
+    border-style:groove;
+    box-shadow: 3px 4px 5px black;
+}
+.dropdown{
+    display: none;
+    position:absolute;
+    padding: 22px;
+    background-color:beige;
+    min-width: 100px;
+    left: 500px;
+    top:50px;
+    box-shadow: 2px 3px 5px black;
+}
+.center:hover .dropdown{
+  display: block;
+}
+.dropdown2{
+    position: relative;
+    display:inline-block;
+}
+.drpbtn{
+    padding: 15px;
+    background-color: aqua;
+    color: aliceblue;
+
+}
+.dropcontent{
+    position: absolute;
+    display: none;
+    box-shadow: 2px 3px 4px black;
+
+}
+.dropcontent a{
+    text-decoration: none;
+    color: chocolate;
+    display: block;
+    padding: 16px 15px ;
+}
+.dropdown2:hover .dropcontent{
+    display: block;
+}

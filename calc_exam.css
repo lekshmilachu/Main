@@ -1,0 +1,28 @@
+.container{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    left:300px;
+}
+.content1{
+    
+    position: absolute;
+    background-color: blue;
+    height: 200px;
+    width: 500px;
+  
+}
+.content2{
+    z-index: 1;
+    position: absolute;
+    background-color: yellow;
+    height: 200px;
+    width: 300px;
+    border-radius: 0px 300px 300px 0px;
+    text-align: center;
+    
+}
+.content1 h3{
+    text-align: right;
+
+};

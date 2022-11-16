@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newscript</title>
+</head>
+<body>
+    <h1 id="demo"></h1>
+    <script>
+        a=["car","bus","van","truck"]
+        let txt= ""
+        for(let i=0;i<a.length;i++){
+        txt += a[i] + "<br>"
+
+        }
+        document.getElementById("demo").innerHTML= txt
+        let x = [12,23,32,43,4]
+        for (let j of x){
+            txt += j + ""
+        }
+        document.getElementById("demo").innerHTML= txt
+        let i = 0;
+        while(i<10){
+            txt += "<br>Number" + i
+            i++
+        }
+        document.getElementById("demo").innerHTML= txt
+    </script>
+</body>
+</html>

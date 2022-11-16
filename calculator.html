@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="/calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content1">
+            <h4>Calculator</h4>
+              <input type="number" id="val1"><br><br>
+              <input type="number" id="val2"><br><br>
+              <button onclick="add()">Addition</button>
+              <br><br>
+              <button onclick="sub()">Subtraction</button><br><br>
+              <button onclick="mul()">Multiplication</button><br><br>
+              <button onclick="div()">Division</button><br><br>
+        </div>
+        <div class="content2">
+         <h4>Hai,</h4>
+            <h4>Result:</h4>
+            <h2 id="demo"></h2>
+        </div>
+    </div>
+
+    <script>
+        let z
+        var x =document.getElementById("val1").value
+        var y =document.getElementById("val2").value
+        function add(){
+            var x =parseInt(document.getElementById("val1").value)
+            var y =parseInt(document.getElementById("val2").value)
+            z=x+y
+            document.getElementById("demo").innerHTML=z
+        };
+        function sub(){
+            var x=parseInt(document.getElementById("val1").value)
+            var y =parseInt(document.getElementById("val2").value)
+            z=x-y  
+                document.getElementById("demo").innerHTML=z
+        };
+        function mul(){
+            var x =parseInt(document.getElementById("val1").value)
+            var y =parseInt(document.getElementById("val2").value)
+            z=x*y
+                document.getElementById("demo").innerHTML=z
+        };
+        function div(){
+            var x =parseInt(document.getElementById("val1").value)
+            var y =parseInt(document.getElementById("val2").value)
+            z=x/y
+                document.getElementById("demo").innerHTML=z
+        };
+    </script>
+</body>
+</html>

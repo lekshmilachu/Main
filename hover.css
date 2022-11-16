@@ -1,0 +1,17 @@
+.zoom > img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+}
+.zoom1 {
+    position: absolute;
+    height:200px;
+    width: 200px;
+    margin: auto;
+    display: none;
+}
+.zoom:hover .zoom1{
+    display: block;
+}

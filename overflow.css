@@ -1,0 +1,24 @@
+@font-face {
+    font-family: myfont;
+    src: url(/alexandra_5/Alexandra.otf);
+}
+.container{
+    width: 300px;
+    height:170px;
+    margin: auto;
+    font-family: myfont;
+    text-overflow:vertical-rl ;
+    background-color: aqua;
+    border: 1px solid black;
+    margin-top: 10%;
+    writing-mode: horizontal-tb;
+    transition: width 2s,background-color 2s;
+    transition-timing-function: ease-in-out;
+
+}
+.container:hover{
+    height: 300px;
+    width: 500px;
+overflow: hidden;
+background-color: blue;
+}

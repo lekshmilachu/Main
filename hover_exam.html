@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/hover_exam.css">
+</head>
+<body>
+    <div class="container">
+        <div class="imageholder">
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg" alt="">
+        </div>
+        <div class="text">
+            <h3>HELLO PLEASE TYPE YOUR NAME</h3><br>
+            <input type="text" id="name" placeholder="Enter your name:"><br><br>
+            <button onclick="action()">click me</button>
+        </div>
+    </div>
+
+    <script>
+        function action(){
+            const name=document.getElementById("name").value 
+            alert("Hello" + name)
+        }
+    </script>
+</body>
+</html>
